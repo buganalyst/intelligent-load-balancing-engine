@@ -367,15 +367,11 @@ git clone https://github.com/yourusername/intelligent-load-balancing-engine.git
 cd intelligent-load-balancing-engine
 ```
 
----
-
 ## Install Dependencies
 
 ```bash
 pip install flask requests
 ```
-
----
 
 ## Compile C++ Algorithm Engine
 
@@ -390,8 +386,6 @@ Windows
 ```bash
 g++ algorithms/algo_logic.cpp -o algorithms/algo_logic.exe
 ```
-
----
 
 ## Configure Backend Servers
 
@@ -428,8 +422,6 @@ python backend/backend_server.py
 ```bash
 python load_balancer/load_balancer.py
 ```
-
----
 
 ## Access Dashboard
 
