@@ -169,21 +169,26 @@ Note: Actual results depend on infrastructure size, workload patterns, network l
 ```text
 ├── algorithm
     ├── algo_logic.cpp
+|
 ├── backend
     ├── backend.py
+|
 ├── config
     ├── server_config.json
-├── load_balancer
-    ├── load_balancer.py
-├── templates
-    ├── dashboard.html
+|
 ├── images
     ├── dashboard.png
     ├── hld.png
+|
+├── load_balancer
+    ├── load_balancer.py
+|
+├── templates
+    ├── dashboard.html
+|
 ├── LICENSE
 ├── README.md
 ```
-
 
 # Load Balancing Algorithms
 
