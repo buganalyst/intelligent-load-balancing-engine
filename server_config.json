@@ -1,0 +1,37 @@
+{
+    "load_balancer": {
+        "host": "0.0.0.0",
+        "port": 8000
+    },
+    "backend_servers": [
+        {
+            "id": "server_1",
+            "url": "http://10.147.98.39:5001",
+            "weight": 1,
+            "location": "Dehradun"
+        },
+        {
+            "id": "server_2",
+            "url": "http://10.147.98.18:5002",
+            "weight": 2,
+            "location": "Dehradun"
+        },
+        {
+            "id": "server_3",
+            "url": "http://10.147.98.18:5003",
+            "weight": 1,
+            "location": "Dehradun"
+        }
+    ],
+    "health_check": {
+        "interval_seconds": 5,
+        "timeout_seconds": 2
+    },
+    "algorithms": [
+        "round_robin",
+        "weighted_round_robin",
+        "least_connections",
+        "ip_hash",
+        "random"
+    ]
+}
